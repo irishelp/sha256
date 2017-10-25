@@ -55,21 +55,9 @@ def	requestsign( message,signKey):
 		
 if __name__ == '__main__':
 	
-	signKey='zsdfyreuoyamdphhaweyrjbvzkgfdycs'
+	signKey='1'
 	message= {
-	"txndir":"Q",
-	"busicd":"PAUT",
-	"inscd":"10134001",
-	"chcd":"WXP",
-	"mchntid":"402077158140001",
-	"txamt":"000000000001",
-	"orderNum":"201710250022",
-	"sign":"9ab4f39af6acb13fb8bec034270120544d7d649955621422becc8e58e7ab1bd8",
-	"version":"2.2",
-	"signType":"SHA256",
-	"charset":"utf-8",
-	"subject":"20171012Test",
-	"backUrl":"http://test.quick.ipay.so"
+	"txndir":"Q"
 	}
 	
 	requestsign(message,signKey)
